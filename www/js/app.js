@@ -38,7 +38,7 @@ function takePicture() {
     }, 5000
     )
 }
-$(".cheese").click(function () {
+$("#loader").click(function () {
     takePicture();
 
 });
